@@ -30,5 +30,9 @@ grails.project.dependency.resolution = {
     }
     plugins {
         build ":jquery-mobile:latest.integration"
+        build ":resources:latest.integration"
+        build ":release:latest.integration", {
+            export = false
+        }
     }
 }
